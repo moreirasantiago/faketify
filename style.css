@@ -1,0 +1,32 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0; 
+}
+html{
+    cursor: url(imgs/cursor-default.svg),default
+}
+body{ 
+    background-color: #fe98f6;
+}
+main{
+    display: grid;
+    place-items: center;
+    height: 5vh; 
+    margin: 0;
+}
+.text-cursor {
+    cursor: url(imgs/cursor-text.svg) 18 10,default
+}
+h1.text-cursor{
+    font-family: 'Oswald', sans-serif;
+}
+input{
+    cursor: url(imgs/cursor-text.svg) 18 10,default
+}
+button{
+    cursor: url(imgs/cursor-btn.svg) 18 10,default
+}
